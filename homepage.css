@@ -1,0 +1,43 @@
+body{
+    background: url(homepag.gif);
+    background-size:cover;
+}
+
+.btn1{
+    background-color: rgb(11, 196, 252);
+    height: 80px;
+    width: 220px;
+    transform: translate(150px,360px);
+    font-size: 25px;
+    border-style:solid;
+    border-width: 7px;
+    border-color: rgb(6, 112, 145);
+    border-radius: 70px;
+
+}
+
+.btn2{
+    background-color: rgb(11, 196, 252);
+    height: 80px;
+    width: 220px;
+    transform: translate(650px,265px);
+    font-size: 25px;
+    border-style:solid;
+    border-width: 7px;
+    border-color: rgb(6, 112, 145);
+    border-radius: 70px;
+}
+
+.btn3{
+    float: right;
+    background-color: rgb(11, 196, 252);
+    height: 80px;
+    width: 220px;
+    transform: translate(-150px,170px);
+    font-size: 25px;
+    border-style:solid;
+    border-width: 7px;
+    border-color: rgb(6, 112, 145);
+    border-radius: 70px;
+
+}
