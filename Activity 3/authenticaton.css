@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(images/login7.png);
+    background-size: 1620px;
+    overflow: hidden;
+}
+
+#right{
+    float: right;
+    background-color: rgb(25, 10, 58);
+    padding-bottom: 55px;
+    padding-top: 35px;
+    padding-right:35px;
+    padding-left: 25px;
+    border-style:solid;
+    border-color: rgb(236, 30, 150);
+    border-width: 7px;
+    border-radius: 25px;
+    transform: translate(-75px,-285px);
+
+}
+
+
+.h11{
+    font-size: 60px;
+    color: rgb(77, 50, 128);
+}
+
+.p1{
+    font-size: 20px;
+    color: rgb(77, 50, 128);
+}
+
+.eme{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    background-color:rgb(156, 127, 214);
+    border-style: hidden;
+    border-radius: 10px;
+}
+::-webkit-input-placeholder{
+    color: rgb(14, 9, 26);
+}
+.pass1{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    background-color:rgb(156, 127, 214);
+    border-style: hidden;
+    border-radius: 10px;
+}
+.forpass{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(108, 82, 151);
+}
+.butn{
+    margin-left: 293px;
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    background-color: rgb(77, 62, 107);
+    border-style: hidden;
+    border-radius: 10px;
+}
+#left{
+    background: url(images/welcome7.gif);
+    width: 850px;
+    height: 400px;
+    background-size: cover;
+    border-style:groove;
+    border-width: 10px;
+    border-color: rgb(77, 50, 128);
+    transform: translate(30px,130px);
+    animation-name: thun;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes thun {
+    0%{
+        background: url(images/Welcome1.jpg);
+        background-size: cover;
+    }
+    40%{
+        background: url(images/thunder.gif);
+        background-size: cover;
+    }
+    75%{
+        background: url(images/thor.gif);
+        background-size: cover;
+    }
+
+    
+}
+.t1{
+    font-size: 20px;
+    color: rgb(77, 50, 128);
+}
+.but1{
+    font-size: 20px;
+    color: rgb(157, 120, 233);
+    text-decoration: none;
+}
+
+
+#right1{
+    float: right;
+    transform: translate(-75px,-975px);
+    background-color: rgb(25, 10, 58);
+    padding-bottom: 55px;
+    padding-top: 35px;
+    padding-right:35px;
+    padding-left: 25px;
+    border-style:solid;
+    border-color: rgb(236, 30, 150);
+    border-width: 7px;
+    border-radius: 25px;
+    visibility: hidden;
+}
+
+
+.h111{
+    font-size: 60px;
+    color: rgb(77, 50, 128);
+}
+
+.p11{
+    font-size: 20px;
+    color: rgb(77, 50, 128);
+}
+
+.eme1{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    background-color:rgb(156, 127, 214);
+    border-style: hidden;
+    border-radius: 10px;
+}
+::-webkit-input-placeholder{
+    color: rgb(14, 9, 26);
+}
+.pass11{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    background-color:rgb(156, 127, 214);
+    border-style: hidden;
+    border-radius: 10px;
+}
+.pass21{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    background-color:rgb(156, 127, 214);
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.check1{
+    margin-top: 50px;
+    background-color: seashell;
+    color: seashell;
+}
+.butn1{
+    margin-left: 293px;
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    background-color: rgb(77, 62, 107);
+    border-style: hidden;
+    border-radius: 10px;
+}
+#left1{
+    background:url(images/regback1.jpg);
+    width: 850px;
+    height: 600px;
+    background-size: cover;
+    border-style: double;
+    border-width: 10px;
+    border-color:rgb(77, 50, 128);
+    transform: translate(30px,-350px);
+    visibility: hidden;
+}
+#pp1{
+    transform: translate(50px,10px);
+    height: 350px;
+    width: 750px;
+}
+#pp2{
+    height: 200px;
+    transform: translate(0px,15px);
+}
+#pp3{
+    width: 500px;
+    transform: translate(-40px,-30px);
+}
+#pp4{
+    transform: translate(650px,-190px);
+    height: 200px;
+}
+
+.t11{
+    font-size: 20px;
+    color: rgb(77, 50, 128);
+}
+.but{
+    font-size: 20px;
+    color: rgb(157, 120, 233);
+    text-decoration: none;
+}
