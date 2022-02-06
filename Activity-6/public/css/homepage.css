@@ -1,0 +1,36 @@
+body {
+     background-image: url(images/home.gif);
+     background-size: cover;
+  }
+.nav {
+      border: 2px solid transparent;
+  }
+
+ .nav:hover {
+      text-decoration: none;
+      border-bottom: 2px solid #f90a09;
+      transition: 0.5s ease;
+  }
+
+  .main-container {
+       height: 100vh;
+  }
+
+  .main_row {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+
+  .main_row h1 {
+       font-size: 5rem;
+  }
+
+  .main_row img {
+       width: auto;
+       height: 100vh;
+  }
+  .about {
+       background: #313552;
+       border-radius: 0.5rem;
+  }
